@@ -1,0 +1,173 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    max-width: 100%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Vesper Libre', serif;
+    color: rgb(207,19,107);
+    background-color: whitesmoke;
+}
+
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+h1 {
+	font-family: fantasy;
+	font-size: 3em;
+	border-bottom: 2px solid pink;
+	border-right: 2px solid pink;
+	width: 400px;
+	text-align: center;
+	-moz-box-shadow:4px 4px 5px #888888;
+	-ms-box-shadow: 4px 4px 5px #888888;
+	-webkit-box-shadow: 4px 4px 5px #888888;
+	-o-box-shadow: 4px 4px 5px #888888;
+	box-shadow: 4px 4px 5px #888888;
+	margin-top: 10px;
+}
+
+
+.donut-section{
+    width: 100vw;
+}
+.image-container{
+    width: 100%;
+    
+}
+.row-one, .row-two, .row-three{
+   
+    width: 90%;
+    margin: 10px auto;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    
+}
+.grid-item{
+    
+    width: 30%;
+    height: 310px;
+    margin: 15px;
+    border-radius: 20px;
+}
+#donut-one{
+    background-image: url(img8.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+#donut-two{
+    background-image: url(img1.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+#donut-three{
+    background-image: url(img2.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+#donut-four{
+    background-image: url(img3.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+#donut-five{
+    background-image: url(img4.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+#donut-six{
+    background-image: url(img5.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+#donut-seven{
+    background-image: url(img6.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+#donut-eight{
+    background-image: url(img7.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+#donut-nine{
+    background-image: url(img8.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.grid-item{
+	width: 600px;
+	height: 400px;
+	margin: 10px;
+	transition: all 1s;
+}
+
+.grid-item:hover {
+	transform: scale(1.1);
+}
+
+
+@media only screen and (max-width:840px){
+    .row-one,.row-two,.row-three,.top-row,.bottom-row{
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    
+    .grid-item{
+        width: 100%;
+    }
+}
+@media only screen and (max-width:420px){
+    h1{
+        width: 300px;
+        font-size: 2.9em;
+    }
+
+}
+@media only screen and (max-width:320px){
+    h1{
+        width: 250px;
+        font-size: 2.7em;
+    }
+
+}
+@media only screen and (max-width:270px){
+    h1{
+        width: 200px;
+        font-size: 2.5em;
+    }
+
+}
+@media only screen and (max-width:220px){
+    h1{
+        width: 150px;
+        font-size: 2em;
+    }
+
+}
+@media only screen and (max-width:170px){
+    h1{
+        width: 100px;
+        font-size: 1.9em;
+    }
+
+}
